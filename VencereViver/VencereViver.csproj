@@ -164,6 +164,7 @@
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="ViverMaster.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -211,6 +212,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ViverMaster.Master.cs">
+      <DependentUpon>ViverMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViverMaster.Master.designer.cs">
+      <DependentUpon>ViverMaster.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
